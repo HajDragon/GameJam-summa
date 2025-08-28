@@ -1,0 +1,5 @@
+endless: True  # defined by Stun length
+advanceByStep: False
+frameColors:
+  - brightwhite
+direction: right
