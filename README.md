@@ -5,6 +5,29 @@
 
 Follow the adventures of ASCIIMAN.
 
+## How to Play
+
+### Controls
+
+**Movement:**
+- **Arrow Keys** or **WASD** - Move character
+- **Shift + Left/Right** - Strafe movement (move without changing direction)
+
+**Combat:**
+- **1-4** - Attack abilities (primary, secondary, tertiary, special)
+- **Q, W, E, R** - Skill slots (heal, block, cleave, etc.)
+
+**Game Controls:**
+- **P** - Pause/Unpause
+- **ESC** - Quit game  
+- **F1** - Toggle statistics
+- **F2** - Toggle debug log
+
+### Gameplay
+- Navigate through ASCII dungeons fighting enemies
+- Use different attack combinations and skills
+- Manage health and resources strategically
+- Progress through multiple scenes and challenges
 
 ## History Lesson 
 
@@ -24,15 +47,28 @@ The timeframe for ASCII games was very short, and the art was lost forever.
 Or was it?
 
 
-## Play It
+## Requirements
 
+* Python 3.7+
+* Dependencies: future, wcwidth, pywin32, pyyaml, pygame
+
+## Running the Game
+
+### Original ASCII Version
+```bash
+python nkeyrollover.py
+```
+
+### Pygame Port (Recommended)
+```bash
+cd pygame_full_port
+python main.py
+```
+
+### Telnet Version
 ```
 telnet dobin.ch
 ```
-
-## Requirements
-
-* Python 3.7
 
 
 ## Miscellaneous
