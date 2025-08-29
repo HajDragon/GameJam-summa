@@ -1,0 +1,9 @@
+endless: True
+advanceByStep: False
+frameTime:
+  - 2.0
+  - 2.0
+frameColors:
+  - ColorType.background
+  - ColorType.background
+direction: right

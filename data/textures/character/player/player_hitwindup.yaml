@@ -1,0 +1,5 @@
+endless: False
+advanceByStep: False
+frameColors:
+  - brightwhite
+direction: right

@@ -1,0 +1,19 @@
+characterTextureType: cow
+weaponType: charge
+health: 200
+enemyInfo:
+  attackWindupTime: 1.0
+  attackStateTime: 1.0
+  enemyCanAttackPeriod: 0.3
+  wanderTime: 5.0
+  wanderTimeRnd: 2.0
+  wanderStepDelay: 0.3
+  chaseTime: 5.0
+  chaseTimeRnd: 2.0
+  chaseStepDelay: 0.2
+stunTime: 0.75
+stunCount: 3
+stunTimeFrame: 5
+wanderAttackDistance: 20
+knockdownChance: 0.2
+knockbackChance: 0.3
