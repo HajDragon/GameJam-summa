@@ -42,6 +42,9 @@ class KeyboardInput(object):
         if key == Screen.KEY_F2:  # f2
             self.game.toggleLog()
 
+        if key == Screen.KEY_F11:  # f11
+            self.game.toggleFullscreen()
+
         messaging.add(
             type=MessageType.PlayerKeypress,
             data={

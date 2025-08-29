@@ -19,6 +19,30 @@ class Viewport(object):
     def reset(self):
         self.x = 0
 
+    def refreshScreenSize(self):
+        """Refresh viewport understanding of screen dimensions"""
+        # This is called when screen size changes (e.g., fullscreen toggle)
+        logger.info(f"Viewport refreshed for screen size: {Config.columns}x{Config.rows}")
+        
+        # Force the asciimatics screen to recognize the new buffer size
+        try:
+            # Update screen internal dimensions
+            self.win._width = Config.columns
+            self.win._height = Config.rows
+            
+            # Clear and reinitialize the screen buffer
+            self.win.clear()
+            
+            # Reset cursor to a safe position
+            self.win.move(0, 0)
+            
+            logger.info(f"Screen object updated to {Config.columns}x{Config.rows}")
+            
+        except Exception as e:
+            logger.error(f"Error updating screen object: {e}")
+        
+        # The viewport automatically uses Config values, so no additional setup needed
+
 
     def getx(self):
         return self.x

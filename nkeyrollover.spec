@@ -5,7 +5,7 @@ a = Analysis(
     ['nkeyrollover.py'],
     pathex=[],
     binaries=[],
-    datas=[('nkeyrollover.yaml', '.'), ('data', 'data'), ('texture', 'texture')],
+    datas=[('data', 'data'), ('texture', 'texture'), ('nkeyrollover.yaml', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

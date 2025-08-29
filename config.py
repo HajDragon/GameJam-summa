@@ -3,6 +3,9 @@ class _Config:
 
     rows = 25
     columns = 80
+    
+    # Screen/Display settings
+    fullscreen = False  # Start in windowed mode by default
 
     topborder = 8
 

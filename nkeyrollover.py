@@ -1,6 +1,7 @@
 #!/usr/bin/env python3.7
 
 from asciimatics.screen import Screen
+from asciimatics.exceptions import ResizeScreenError
 import time
 import signal
 import sys

@@ -120,6 +120,7 @@ class SceneIntro(SceneBase):
             self.viewport.addstr(10, 40, "Attack       : space", c3, a3)
             self.viewport.addstr(11, 40, "Skills       : q w e r", c3, a3)
             self.viewport.addstr(12, 40, "Heal, Port   : f g", c3, a3)
+            self.viewport.addstr(13, 40, "Fullscreen   : F11", c3, a3)
 
         # state
         if self.state is IntroSceneState.wait1:
